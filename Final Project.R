@@ -1,4 +1,4 @@
-path="/Users/Srishti/Desktop/ISME/Trimester 3/R/Data/london_crime.csv"
+path="/Data/london_crime.csv"
 df=read.csv(path)
 head(df)
 label=levels(unlist(df$major_category))
